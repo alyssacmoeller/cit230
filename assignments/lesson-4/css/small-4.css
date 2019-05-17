@@ -1,12 +1,16 @@
 body {
-    font-size: 16px;
-    line-height: 32px;
-    font-family: 'Lora', serif;
+        font-size: 16px;
+        line-height: 32px;
+        font-family: 'Lora', serif;
 }
 .icon {
         height: 60px;
         width: 60px;
         float: left;
+}
+
+.motto {
+        font-style: italic;
 }
 
 h1 {
