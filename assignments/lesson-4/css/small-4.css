@@ -4,25 +4,23 @@ body {
     font-size: 16px;
     line-height: 32px;
     font-family: 'Lora', serif;
-    color: #000000;
-}
-    
-h1, h2, h3 {
-        font-family: 'Raleway', sans-serif;
 }
 
 h1 {
         font-size: 30px;
+        font-family: 'Raleway', sans-serif;
         color:#5f86b1;
 }
         
 h2 {
         font-size: 25px;
+        font-family: 'Raleway', sans-serif;
         color:#5f86b1;
 }
 
 h3 {
         font-size: 20px;
+        font-family: 'Raleway', sans-serif;
         color:#5f86b1;
 }
 
@@ -36,6 +34,9 @@ ul {
         top: 0;
 }
 
+li {
+    float: left;
+}
 li a {
         display: block;
         color: #2e3d64;
@@ -47,17 +48,12 @@ li a.active {
         background-color: #5f86b1;
         color: #2e3d64;
 }
-    
-header, main, footer {
-        margin: 1.25rem auto;
-        padding: .5rem;
-        max-width: 800px;
-}
         
 header {
-        text-align: center;
-        background-color: #2e3d64;
-        color: #feda73;
+    padding: 30px;
+    text-align: center;
+    background-color: #2e3d64;
+    color: #feda73;
 }
         
 header img {
