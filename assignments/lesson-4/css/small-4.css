@@ -7,6 +7,10 @@ body {
     color: #000000;
 }
     
+h1, h2, h3 {
+        font-family: 'Raleway', sans-serif;
+}
+
 h1 {
         font-size: 30px;
         color:#5f86b1;
@@ -30,8 +34,8 @@ header, main, footer {
         
 header, footer, footer a {
         text-align: center;
-        background-color:#294C4E;
-        color:#E8E5DA;
+        background-color: ;
+        color:;
 }
         
 header img {
