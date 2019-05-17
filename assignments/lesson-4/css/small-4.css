@@ -25,6 +25,28 @@ h3 {
         font-size: 20px;
         color:#5f86b1;
 }
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #feda73;
+        position: fixed;
+        top: 0;
+}
+
+li a {
+        display: block;
+        color: #2e3d64;
+        text-align: center;
+        padding: 10px 16px;
+}
+  
+li a.active {
+        background-color: #5f86b1;
+        color: #2e3d64;
+}
     
 header, main, footer {
         margin: 1.25rem auto;
@@ -32,10 +54,10 @@ header, main, footer {
         max-width: 800px;
 }
         
-header, footer, footer a {
+header {
         text-align: center;
-        background-color: ;
-        color:;
+        background-color: #2e3d64;
+        color: #feda73;
 }
         
 header img {
@@ -45,5 +67,6 @@ header img {
 }
 
 footer {
-    font-size: 11px;
+        font-size: 11px;
+        background-color: #5f86b1;
 }
