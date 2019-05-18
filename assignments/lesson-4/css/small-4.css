@@ -68,10 +68,10 @@ header {
     color: #feda73;
 }
         
-header img {
-        width: 250px;
-        height: auto;
-        float: right;
+header img, .headings {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
 }
 
 footer {
