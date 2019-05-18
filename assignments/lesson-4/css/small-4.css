@@ -1,6 +1,5 @@
 body {
         font-size: 16px;
-        line-height: 32px;
         font-family: 'Lora', serif;
 }
 .icon {
@@ -56,6 +55,11 @@ li a.active {
         background-color: #5f86b1;
         color: #2e3d64;
 }
+
+.wayfind {
+        background-color: #5f86b1;
+        color: #2e3d64;
+}
         
 header {
     padding: 30px;
@@ -71,6 +75,12 @@ header img {
 }
 
 footer {
-        font-size: 11px;
+        background-color: #2e3d64;
+        color: #feda73;
+        text-align: center;
+}
+.footinfo {
         background-color: #5f86b1;
+        color: #feda73;
+        text-align: center;
 }
