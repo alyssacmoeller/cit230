@@ -4,14 +4,14 @@ body {
 
 h1 {
     font-size: 32px;
-    color:blue;
+    color:rgb(27, 27, 97);
 }
         
 h2 {
     font-size: 24px;
     text-align: center;
     border-bottom: 1px solid black;
-    color:#869485;
+    color:#370857;
 }
     
 header, main, footer {
@@ -22,8 +22,8 @@ header, main, footer {
         
 header, footer, footer a {
     text-align: center;
-    background-color:#294C4E;
-    color:#E8E5DA;
+    background-color:#ffffff;
+    color:rgb(30, 74, 92);
 }
         
 header img {
