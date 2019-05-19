@@ -3,10 +3,17 @@ body {
 }  
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(27, 27, 97);
 }
-        
+ 
+@media only screen and (min-width: 600px){
+    h1 {
+        font-size: 40px;
+        color: rgb(4, 80, 4);
+    }
+}
+
 h2 {
     font-size: 24px;
     text-align: center;
@@ -26,7 +33,7 @@ header, footer, footer a {
     color:rgb(30, 74, 92);
 }
         
-header img {
+img {
     width: 250px;
     height: auto;
     float: right;
