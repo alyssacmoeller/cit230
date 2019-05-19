@@ -4,21 +4,14 @@ body {
 
 h1 {
     font-size: 30px;
-    color:rgb(27, 27, 97);
-}
- 
-@media only screen and (min-width: 600px){
-    h1 {
-        font-size: 40px;
-        color: rgb(4, 80, 4);
-    }
+    color:black;
 }
 
 h2 {
     font-size: 24px;
     text-align: center;
     border-bottom: 1px solid black;
-    color:#370857;
+    color:black;
 }
     
 header, main, footer {
@@ -30,7 +23,7 @@ header, main, footer {
 header, footer, footer a {
     text-align: center;
     background-color:#ffffff;
-    color:rgb(30, 74, 92);
+    color: black;
 }
         
 img {
@@ -40,4 +33,21 @@ img {
 
 footer {
     font-size: 11px;
+}
+
+@media only screen and (min-width: 600px){
+    h1 {
+        font-size: 40px;
+        color: rgb(52, 122, 79);
+    }
+    h2 {
+        color: rgb(80, 28, 110);
+    }
+    header, footer, footer a {
+        background-color: rgb(2, 39, 54);
+        color: rgb(50, 121, 150);
+    }
+    img {
+        display: none;
+    }
 }
