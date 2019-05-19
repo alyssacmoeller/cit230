@@ -1,5 +1,6 @@
 body {
     background-color: lightblue
+    text-align: center;
 }  
 
 h1 {
@@ -36,6 +37,9 @@ footer {
 }
 
 @media only screen and (min-width: 600px){
+    body {
+        text-align: left;
+    }
     h1 {
         font-size: 40px;
         color: rgb(52, 122, 79);
