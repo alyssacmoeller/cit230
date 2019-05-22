@@ -1,0 +1,85 @@
+body {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+
+.motto {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color:#5f86b1;
+}
+    
+h2 {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color:#5f86b1;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:#5f86b1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #feda73;
+}
+
+li a {
+    display: block;
+    color: #2e3d64;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2e3d64;
+    color: #feda73;
+}
+
+li a.active {
+    background-color: #5f86b1;
+    color: #2e3d64;
+}
+
+.wayfind {
+    background-color: #5f86b1;
+}
+    
+header {
+padding: 30px;
+text-align: center;
+background-color: #2e3d64;
+color: #feda73;
+}
+    
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+footer {
+    background-color: #2e3d64;
+    color: #feda73;
+    text-align: center;
+}
+.footinfo {
+    background-color: #5f86b1;
+    color: #feda73;
+    text-align: center;
+}
