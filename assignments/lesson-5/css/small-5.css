@@ -5,6 +5,7 @@ body {
 .icon {
     height: 60px;
     width: 60px;
+    float: left;
 }
 
 .motto {
@@ -60,12 +61,6 @@ padding: 30px;
 text-align: center;
 background-color: #2e3d64;
 color: #feda73;
-}
-    
-.icon, .headings {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px;
 }
 
 footer {
