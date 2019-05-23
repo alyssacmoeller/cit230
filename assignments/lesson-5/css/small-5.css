@@ -8,10 +8,6 @@ body {
     float: left;
 }
 
-.flex-container {
-    flex-wrap: nowrap;
-}
-
 .motto {
     font-style: italic;
 }
