@@ -29,7 +29,33 @@ h3 {
     font-family: 'Raleway', sans-serif;
     color:#5f86b1;
 }
-    
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #feda73;
+}
+
+li a {
+    display: block;
+    color: #2e3d64;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2e3d64;
+    color: #feda73;
+}
+
+li a.active {
+    background-color: #5f86b1;
+    color: #2e3d64;
+}
+
 header {
 padding: 30px;
 text-align: center;
@@ -49,33 +75,3 @@ footer {
     text-align: center;
 }
 
-.navigation {
-    list-style: none;
-    text-align: center;
-}
-
-.navigation li:first-child {
-    display: block;
-    }
-
-.navigation li {
-    display: none;
-    }
-
-.navigation a {
-    display: block;
-        color: #fff; 
-        padding: .75rem;	
-        text-align: center;	
-        text-decoration: none;
-    }
-
-.navigation a:hover {
-    color: #000; 
-    background-color: #fff; 
-    font-weight: 700;	
-}
-
-.responsive li {
-     display: block; 
-    }
