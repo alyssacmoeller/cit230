@@ -29,32 +29,6 @@ h3 {
     font-family: 'Raleway', sans-serif;
     color:#5f86b1;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #feda73;
-}
-
-li a {
-    display: block;
-    color: #2e3d64;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #2e3d64;
-    color: #feda73;
-}
-
-li a.active {
-    background-color: #5f86b1;
-    color: #2e3d64;
-}
     
 header {
 padding: 30px;
@@ -101,3 +75,7 @@ footer {
     background-color: #fff; 
     font-weight: 700;	
 }
+
+.responsive li {
+     display: block; 
+    }
