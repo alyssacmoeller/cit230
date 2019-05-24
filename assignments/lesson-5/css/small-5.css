@@ -56,6 +56,19 @@ li a.active {
     color: #2e3d64;
 }
 
+.hero {
+    width: 80%;
+    margin: 30px;
+}
+
+.rafting {
+
+}
+
+.map {
+
+}
+
 header {
 padding: 30px;
 text-align: center;
