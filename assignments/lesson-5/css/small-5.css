@@ -37,6 +37,10 @@ ul {
     background-color: #feda73;
 }
 
+li {
+    display: none;
+}
+
 li a {
     display: none;
     color: #2e3d64;
@@ -57,6 +61,7 @@ li a.active {
 
 .menu {
     display: block;
+    margin: auto;
 }
 
 .hero {
