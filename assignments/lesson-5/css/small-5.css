@@ -62,8 +62,6 @@ li a.active {
     text-align: center;
 }
 
-
-
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -88,6 +86,13 @@ li a.active {
     background-color: #feda73;
 }
 
+.raft-article {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid #2e3d64;
+    width: 50px
+    height: 80px;
+}
 .rafting {
     width: 20%;
 }
@@ -101,10 +106,10 @@ li a.active {
 }
 
 header {
-padding: 30px;
-text-align: center;
-background-color: #2e3d64;
-color: #feda73;
+    padding: 30px;
+    text-align: center;
+    background-color: #2e3d64;
+    color: #feda73;
 }
 
 footer {
