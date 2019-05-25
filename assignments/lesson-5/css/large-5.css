@@ -6,6 +6,10 @@
         overflow: hidden;
       }
       
+    li {
+        display: block;
+    }
+        
     li a {
         display: block;
         color: #2e3d64;
