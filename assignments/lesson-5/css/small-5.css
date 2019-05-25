@@ -41,13 +41,7 @@ li {
     display: none;
 }
 
-li a {
-    display: none;
-    color: #2e3d64;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-}
+
 
 li a:hover {
     background-color: #2e3d64;
