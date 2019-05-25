@@ -6,19 +6,15 @@
         overflow: hidden;
       }
       
-    li {
-        display: block
-        float: left;
-      }
-      
     li a {
         display: block;
+        color: #2e3d64;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-      }
+    }
 
-      .menu {
+    .menu {
         display: none;
       }
 }
