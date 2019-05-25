@@ -74,18 +74,17 @@ li a.active {
 
 .hero {
     margin: 10px auto;
-    background-color: #5f86b1;
     border: 1px solid #2e3d64;
-    width: 80%;
+    width: 100%;
+    height: 250px;
 }
 
 .weathersummary {
     position: absolute;
-    top: 25px;
+    top: 50px;
     right: 50px;
-    background: radial-gradient(#2e3d64);
     border: 1px solid #5f86b1;
-    padding: 1.5rem;
+    padding: .5rem;
 }
 
 .rafting {
