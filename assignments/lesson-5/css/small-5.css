@@ -62,13 +62,14 @@ li a.active {
 .menu {
     display: block;
     margin: auto;
+    text-align: center;
 }
 
 .hero {
+    display: block;
     width: 80%;
-    margin: 30px;
-    display: inline-block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rafting {
