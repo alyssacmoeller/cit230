@@ -5,8 +5,13 @@
         padding: 0;
         overflow: hidden;
       }
+
+      .menu {
+          display: none;
+      }
       
       li {
+        display: block
         float: left;
       }
       

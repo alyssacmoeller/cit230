@@ -38,7 +38,7 @@ ul {
 }
 
 li a {
-    display: block;
+    display: none;
     color: #2e3d64;
     text-align: center;
     padding: 10px 16px;
@@ -53,6 +53,10 @@ li a:hover {
 li a.active {
     background-color: #5f86b1;
     color: #2e3d64;
+}
+
+.menu {
+    display: block;
 }
 
 .hero {
