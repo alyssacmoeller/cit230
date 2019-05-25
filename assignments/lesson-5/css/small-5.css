@@ -65,7 +65,8 @@ li a.active {
 }
 
 .rafting {
-    width: 60%
+    width: 20%;
+    float: right;
 }
 
 .map {
