@@ -5,20 +5,20 @@
         padding: 0;
         overflow: hidden;
       }
-
-      .menu {
-          display: none;
-      }
       
-      li {
+    li {
         display: block
         float: left;
       }
       
-      li a {
+    li a {
         display: block;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+      }
+
+      .menu {
+        display: none;
       }
 }
