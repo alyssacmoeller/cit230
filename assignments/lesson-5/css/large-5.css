@@ -31,6 +31,5 @@
     
     .navigation a {
         float: none;
-        transform: translate(-50%, -50%);
     }
 }
