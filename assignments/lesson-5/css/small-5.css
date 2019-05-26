@@ -3,10 +3,6 @@ body {
     font-family: 'Lora', serif;
 }
 
-p {
-    color:#2e3d64;
-}
-
 .icon {
     display: inline-block;
     height: 80px;
@@ -88,11 +84,15 @@ li a.active {
 
 .weathersummary {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 20px;
+    left: 20px;
     border: 1px solid #5f86b1;
     padding: .5rem;
     background-color: #feda73;
+}
+
+.forecast {
+    display: hidden;
 }
 
 .raft-article {
@@ -111,7 +111,7 @@ li a.active {
 }
 
 .map {
-    width: 80px;
+    width: 150px;
 }
 
 .town {

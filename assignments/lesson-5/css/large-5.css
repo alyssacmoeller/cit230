@@ -21,6 +21,13 @@
     .menu {
         display: none;
       }
+
+    .forecast {
+        display: inline-block;
+        text-align: center;
+        background-color: #feda73;
+        color: #2e3d64;
+    }
     
     .navigation a {
         float: none;
