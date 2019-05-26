@@ -99,6 +99,7 @@ li a.active {
     margin: 10px auto;
     position: relative;
     border: 1px solid #2e3d64;
+    background-color: #feda73;
     width: 80%;
     height: auto;
 }
