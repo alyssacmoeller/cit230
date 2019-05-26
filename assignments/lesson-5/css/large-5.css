@@ -27,6 +27,8 @@
         text-align: center;
         background-color: #feda73;
         color: #2e3d64;
+        position: relative;
+        border: 1px solid #5f86b1;
     }
     
     .navigation a {
